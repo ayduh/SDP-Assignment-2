@@ -4,7 +4,8 @@ public class LabReport extends MedicalDocument{
     private String submittedSample;
     private String labResults;
 
-    public LabReport(String submittedSample, String labResults){
+    public LabReport(String pFirstName, String pLastName, String submittedSample, String labResults){
+        super(pFirstName, pLastName);
         this.submittedSample = submittedSample;
         this.labResults = labResults;
     }

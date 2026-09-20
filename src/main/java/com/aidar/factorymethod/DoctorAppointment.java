@@ -4,8 +4,12 @@ public class DoctorAppointment extends MedicalDocument {
     private String doctorName;
     private String dateOfAppointment;
 
-    public DoctorAppointment(String doctorFirstName, String doctorSecondName, String dateOfAppointment){
-        this.doctorName = doctorFirstName + " " + doctorSecondName;
+    public DoctorAppointment(
+        String pFirstName, String pLastName,
+        String dFirstName, String dLastName, String dateOfAppointment
+    ) {
+        super(pFirstName, pLastName);
+        this.doctorName = dFirstName + " " + dLastName;
         this.dateOfAppointment = dateOfAppointment;
     }
 
