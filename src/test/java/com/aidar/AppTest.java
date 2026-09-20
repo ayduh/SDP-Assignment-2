@@ -17,6 +17,7 @@ public class AppTest
     @Test
     public void shouldAnswerWithTrue()
     {
-        PatientInfo a = new PatientInfo("2007.02.24", "Tall, Dark Skin, Skinny");
+        PatientInfo a = new PatientInfo("Aidar","Murat","2007.02.24", "Tall, Dark Skin, Skinny");
+        System.out.println(a.generateForm());
     }
 }

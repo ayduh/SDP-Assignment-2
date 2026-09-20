@@ -10,12 +10,14 @@ public class LabReport extends MedicalDocument{
     }
     
     @Override
-    public void generateForm() {
+    public StringBuilder generateForm() {
         StringBuilder sb = new StringBuilder();
         sb.append("== Lab Report ==").append("\n");
-        sb.append("Name of Patient: ").append(getPatientFullName()).append("\n")
+        sb.append("Name of Patient: ").append(getPatientFullName()).append("\n");
         sb.append("Submitted Sample: ").append(submittedSample).append("\n");
         sb.append("Lab Results: ").append(labResults).append("\n");
+        
+        return sb;
     }
 
     @Override

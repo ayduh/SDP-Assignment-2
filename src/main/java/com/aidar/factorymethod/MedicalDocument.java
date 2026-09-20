@@ -2,21 +2,21 @@ package com.aidar.factorymethod;
 
 public abstract class MedicalDocument {
 
-    private String firstName;
-    private String lastName;
+    private String patientFirstName;
+    private String patientLastName;
 
     public MedicalDocument() {
     }
 
-    public MedicalDocument(String firstName, String lastName) {
-        this.firstName = firstName;
-        this.lastName = lastName;
+    public MedicalDocument(String pFirstName, String pLastName) {
+        this.patientFirstName = pFirstName;
+        this.patientLastName = pLastName;
     }
 
     public String getPatientFullName() {
-        return firstName + " " + lastName;
+        return patientFirstName + " " + patientLastName;
     }
 
-    public abstract void generateForm();
+    public abstract StringBuilder generateForm();
     public abstract void putStamp();
 }

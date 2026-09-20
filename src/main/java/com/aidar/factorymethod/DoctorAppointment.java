@@ -10,12 +10,14 @@ public class DoctorAppointment extends MedicalDocument {
     }
 
     @Override
-    public void generateForm() {
+    public StringBuilder generateForm() {
         StringBuilder sb = new StringBuilder();
         sb.append("== Doctor Appointment ==").append("\n");
-        sb.append("Name of Patient: ").append(getPatientFullName()).append("\n")
+        sb.append("Name of Patient: ").append(getPatientFullName()).append("\n");
         sb.append("Name of Doctor: ").append(doctorName).append("\n");
         sb.append("Date of Appointment: ").append(dateOfAppointment).append("\n");
+        
+        return sb;
     }
 
     @Override
