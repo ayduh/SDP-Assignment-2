@@ -1,0 +1,8 @@
+com\aidar\factorymethod\PatientInfo.class
+com\aidar\factorymethod\DoctorAppointmentFactory.class
+com\aidar\factorymethod\MedicalDocument.class
+com\aidar\factorymethod\DoctorAppointment.class
+com\aidar\factorymethod\PatientInfoFactory.class
+com\aidar\factorymethod\LabReportFactory.class
+com\aidar\factorymethod\LabReport.class
+com\aidar\factorymethod\DocumentFactory.class
