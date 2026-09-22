@@ -6,6 +6,7 @@ public abstract class MedicalDocument {
     private String patientLastName;
 
     public MedicalDocument() {
+        
     }
 
     public MedicalDocument(String pFirstName, String pLastName) {
