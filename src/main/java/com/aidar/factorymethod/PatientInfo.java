@@ -23,6 +23,6 @@ public class PatientInfo extends MedicalDocument {
 
     @Override
     public void putStamp() {
-
+        
     }
 }

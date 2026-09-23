@@ -23,6 +23,6 @@ public class LabReport extends MedicalDocument{
 
     @Override
     public void putStamp() {
-        System.out.println("LAB TECH STAMP");
+        System.out.println("LAB TECH STAMP\n");
     }
 }

@@ -26,6 +26,6 @@ public class DoctorAppointment extends MedicalDocument {
 
     @Override
     public void putStamp() {
-        System.out.println("DOCTOR STAMP");
+        System.out.println("DOCTOR STAMP\n");
     }
 }
